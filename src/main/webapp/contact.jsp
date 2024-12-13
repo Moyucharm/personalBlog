@@ -30,7 +30,9 @@
 <main>
   <section class="con">
     <h1>联系方式</h1>
-    <p>等会写</p>
+    <p>邮箱：2369935077@qq.com</p>
+    <p>Github主页：<a href="https://github.com/Moyucharm" target="_blank">点我跳转！</a></p>
+    <p>虽然目前在Github上没有任何项目，绝赞画饼中~！</p>
   </section>
 </main>
 

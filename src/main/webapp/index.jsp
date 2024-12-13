@@ -31,23 +31,23 @@
 <main>
     <section class="intro">
         <h1><%= message %></h1>
-        <p>分享我的学习和生活的点滴。希望你能从中得到一些启发。</p>
+        <p>欢迎来到我的个人博客！我在这里分享学习和生活的点滴，希望你能从中得到一些启发。</p>
     </section>
 
     <section class="blog-list">
-        <h2>最新博客文章</h2>
+        <h2>推荐文章</h2>
         <ul>
             <li>
-                <h3><a href="blog.jsp?id=1">如何高效学习编程</a></h3>
-                <p>在这篇文章中，我分享了我自己的学习编程的心得。</p>
+                <h3><a href="article.jsp?id=1">ChatGPT-o1来啦</a></h3>
+                <p>简要介绍及体验ChatGPT-o1。</p>
             </li>
             <li>
-                <h3><a href="blog.jsp?id=2">JSP与Servlet的基础学习</a></h3>
-                <p>本篇文章讲解了JSP与Servlet的基础知识，帮助大家快速上手Web开发。</p>
+                <h3><a href="article.jsp?id=3">期末周了又开新课</a></h3>
+                <p>一位大学生无奈的吐槽。</p>
             </li>
             <li>
-                <h3><a href="blog.jsp?id=3">前端与后端的结合</a></h3>
-                <p>讨论了前后端分离以及如何高效地进行全栈开发。</p>
+                <h3><a href="article.jsp?id=4">黑神话悟空惜败</a></h3>
+                <p>少了一件“袈裟”又何妨？</p>
             </li>
         </ul>
     </section>
@@ -55,7 +55,7 @@
     <!-- 个人简介 -->
     <section class="about-me">
         <h2>关于我</h2>
-        <p>你好，我是[姓名]，一名热爱技术的开发者，正在学习Web开发和机器学习。</p>
+        <p>你好，我是徐一銍，一名热爱技术的大学生，正在学习Web开发和机器学习。</p>
     </section>
 </main>
 

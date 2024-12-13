@@ -9,21 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab5d30f-5812-4bfd-98f1-98499f57b5e2" name="变更" comment="修改了一些内容">
-      <change afterPath="$PROJECT_DIR$/222.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xukeli/BlogServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xukeli/WriteArticleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/article.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/article.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/writeArticle.jsp" afterDir="false" />
+    <list default="true" id="cab5d30f-5812-4bfd-98f1-98499f57b5e2" name="变更" comment="搞好了博客文章的东西">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/about.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/blog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/comments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/comments.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/创建数据库.sql" beforeDir="false" afterPath="$PROJECT_DIR$/创建数据库.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/writeArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/writeArticle.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734070350293</updated>
       <workItem from="1734070351317" duration="9826000" />
-      <workItem from="1734086524354" duration="12904000" />
+      <workItem from="1734086524354" duration="14392000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <created>1734079293179</created>
@@ -231,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734094040334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="搞好了博客文章的东西">
+      <created>1734100561195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734100561195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +241,7 @@
     <MESSAGE value="现在把留言板的大部分东西做好了，但是留言板还有一些小bug" />
     <MESSAGE value="留言板的bug修好了，登录页面、登录失败页面美化，添加注册功能和游客登录" />
     <MESSAGE value="修改了一些内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了一些内容" />
+    <MESSAGE value="搞好了博客文章的东西" />
+    <option name="LAST_COMMIT_MESSAGE" value="搞好了博客文章的东西" />
   </component>
 </project>
