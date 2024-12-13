@@ -1,0 +1,42 @@
+.blog-post {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}
+
+.blog-post .title{
+    padding: 5px;
+    width: 60%; /* 控制消息框的宽度 */
+}
+
+.blog-post .content{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 60%; /* 控制消息框的宽度 */
+}
+
+button{
+    width: 100px; /* 按钮宽度一致 */
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #3498db; /* 按钮背景色 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+
+
+button:hover {
+    background-color: #2980b9; /* 按钮悬停效果 */
+}

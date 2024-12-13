@@ -9,5 +9,19 @@ CREATE TABLE IF NOT EXISTS users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
 
+CREATE TABLE comment (
+                         id INT AUTO_INCREMENT PRIMARY KEY,
+                         username VARCHAR(50) NOT NULL,
+                         content TEXT NOT NULL,
+                         create_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE posts (
+                       id INT AUTO_INCREMENT PRIMARY KEY,
+                       title VARCHAR(255) NOT NULL,
+                       content TEXT NOT NULL,
+                       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 
 INSERT INTO users (username, password) VALUES ('admin', 'root');
