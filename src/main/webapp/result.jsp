@@ -10,13 +10,21 @@
 <head>
   <meta charset="UTF-8">
   <title>登录结果</title>
+  <link rel="stylesheet" href="css/user.css">
 </head>
 <body>
-<h2>登录结果</h2>
+
 <%
   String message = (String) request.getAttribute("message");
 %>
-<p><%= message %></p>
-<a href="/login.jsp">返回登录页面</a>
+<div class="main">
+  <ul>
+    <li><h2>登录结果</h2></li>
+    <li><p><%= message %></p></li>
+    <li><input type="button" value="返回登录页面" onclick="location.href='login.jsp'"></li>
+    <li></li>
+  </ul>
+</div>
+
 </body>
 </html>

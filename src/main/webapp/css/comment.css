@@ -54,7 +54,7 @@
     margin-bottom: 100px;
 }
 .comment-box {
-    width: 100%;
+
     display: flex;
     align-items: flex-start;
     flex-direction: column;

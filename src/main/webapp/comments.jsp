@@ -15,11 +15,11 @@
 <header>
   <nav>
     <ul>
-      <li><a href="index.jsp" class="nowPos">首页</a></li>
+      <li><a href="index.jsp" >首页</a></li>
       <li><a href="about.jsp">关于我</a></li>
       <li><a href="blog.jsp">博客文章</a></li>
       <li><a href="contact.jsp">联系我</a></li>
-      <li><a href="comments.jsp">留言板</a></li>
+      <li><a href="comments" class="nowPos">留言板</a></li>
     </ul>
   </nav>
 </header>
@@ -28,7 +28,7 @@
 <h1>留言区</h1>
 
 <c:if test="${empty username}">
-  <p>您好，游客！您需要 <a href="login.jsp">登录</a> 才能留言。</p>
+  <p style="text-align: center">您好，游客！您需要 <a href="login.jsp">登录</a> 才能留言。</p>
 </c:if>
 
 <div class="post">
@@ -39,9 +39,14 @@
     </form>
   </c:if>
 </div>
+
+
 <h2>留言列表</h2>
 <div class="contents">
-    <c:forEach var="comment" items="${commentList}">
+  <c:if test="${empty commentList}">
+    <p>目前没有留言。</p>
+  </c:if>
+  <c:forEach var="comment" items="${commentList}">
       <div class="comment-box">
         <div class="info">
           <strong>${comment.username}</strong> - ${comment.createTime}

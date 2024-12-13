@@ -12,10 +12,10 @@
     <nav>
         <ul>
             <li><a href="index.jsp">首页</a></li>
-            <li><a href="about.jsp">关于我</a></li>
-            <li><a href="blog.jsp">博客文章</a></li>
+            <li><a href="about.jsp" >关于我</a></li>
+            <li><a href="blog.jsp" class="nowPos">博客文章</a></li>
             <li><a href="contact.jsp">联系我</a></li>
-            <li><a href="comments.jsp">留言板</a></li>
+            <li><a href="comments">留言板</a></li>
 
         </ul>
     </nav>
