@@ -19,7 +19,7 @@
 %>
 <div class="main">
   <ul>
-    <li><h2>登录结果</h2></li>
+    <li><h2>登录结果 -xyz's Blog</h2></li>
     <li><p><%= message %></p></li>
     <li><input type="button" value="返回登录页面" onclick="location.href='login.jsp'"></li>
     <li></li>

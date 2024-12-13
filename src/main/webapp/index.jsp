@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人博客</title>
+    <title>首页 -xyz's Blog</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -61,7 +61,7 @@
 
 <!-- 页脚 -->
 <footer>
-    <p>&copy; 2024 [姓名] - 个人博客</p>
+    <p>&copy; 2024 xyz - 个人博客</p>
 </footer>
 
 <script src="js/script.js"></script>

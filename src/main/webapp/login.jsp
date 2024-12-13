@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>用户登录</title>
+    <title>用户登录 -xyz's Blog</title>
     <link rel="stylesheet" href="css/user.css">
 </head>
 <body>
