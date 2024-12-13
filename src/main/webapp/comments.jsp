@@ -1,12 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://jakarta.apache.org/taglibs/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>留言区</title>
-  <link rel="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/comment.css">
 </head>
 <body>
 
@@ -30,27 +31,28 @@
   <p>您好，游客！您需要 <a href="login.jsp">登录</a> 才能留言。</p>
 </c:if>
 
-<c:if test="${not empty username}">
-  <form action="comments" method="POST" class="leave-comment">
-    <textarea name="content" placeholder="写下您的留言..." required></textarea>
-    <button type="submit">提交留言</button>
-  </form>
-</c:if>
-
+<div class="post">
+  <c:if test="${not empty username}">
+    <form action="comments" method="POST" class="leave-comment">
+      <input name="content" placeholder="写下您的留言..." required></input>
+      <button type="submit">提交留言</button>
+    </form>
+  </c:if>
+</div>
 <h2>留言列表</h2>
-
-<c:forEach var="comment" items="${commentList}">
-  <div class="comment-box">
-    <div class="info">
-      <strong>${comment.username}</strong> - ${comment.createTime}
-    </div>
-    <div class="content">${comment.content}</div>
-  </div>
-</c:forEach>
-
+<div class="contents">
+    <c:forEach var="comment" items="${commentList}">
+      <div class="comment-box">
+        <div class="info">
+          <strong>${comment.username}</strong> - ${comment.createTime}
+        </div>
+        <div class="content">${comment.content}</div>
+      </div>
+    </c:forEach>
+</div>
 <!-- 页脚 -->
 <footer>
-  <p>&copy; 2024 [姓名] - 个人博客</p>
+  <p>&copy; 2024 徐一銍 - 个人博客</p>
 </footer>
 
 </body>

@@ -1,0 +1,90 @@
+.info strong{
+    color: dodgerblue;
+    font-size: 20px;
+}
+.info{
+    font-size: 10px;
+    color: gray;
+}
+.content{
+
+    width: 500px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.post{
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中（可选，根据需要） */
+    flex-direction: row;
+
+}
+.post button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* 圆角边框 */
+
+    color:white;
+}
+.post button:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.post input{
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    height: 50px;
+}
+.contents{
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中（可选，根据需要） */
+    flex-direction: column; /* 垂直排列多个 .comment-box */
+    margin-top: 20px; /* 和页面顶部保持一定间距 */
+    margin-bottom: 100px;
+}
+.comment-box {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%; /* 控制消息框的宽度 */
+
+}
+
+.info {
+    margin-bottom: 5px; /* 和消息框内容保持间距 */
+    font-size: 14px; /* 调整字体大小 */
+    color: #666; /* 显示浅色字体 */
+}
+
+.info strong {
+    color: #007bff; /* 用户名颜色 */
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left; /* 确保文字靠左显示 */
+    word-wrap: break-word; /* 防止长内容溢出 */
+}
+
+h1,h2{
+    text-align: center;
+}
