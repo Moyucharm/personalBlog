@@ -11,6 +11,7 @@
   <meta charset="UTF-8">
   <title>登录结果</title>
   <link rel="stylesheet" href="css/user.css">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 

@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 23699
-  Date: 2024/12/13
-  Time: 20:29
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -12,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>联系我 -xyz's Blog</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 <header>

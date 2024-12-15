@@ -8,6 +8,7 @@
     <title>文章详情</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/article.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 <header>

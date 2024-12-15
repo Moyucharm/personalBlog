@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>用户注册 -xyz's Blog</title>
   <link rel="stylesheet" href="css/user.css">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 

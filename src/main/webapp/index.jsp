@@ -7,6 +7,7 @@
     <title>首页 -xyz's Blog</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 <%
@@ -39,12 +40,12 @@
         <h2>推荐文章</h2>
         <ul>
             <li>
-                <h3><a href="article.jsp?id=1">ChatGPT-o1来啦</a></h3>
-                <p>简要介绍及体验ChatGPT-o1。</p>
+                <h3><a href="article.jsp?id=5">【公告】用户注册须知</a></h3>
+                <p>新人必看！</p>
             </li>
             <li>
-                <h3><a href="article.jsp?id=3">期末周了又开新课</a></h3>
-                <p>一位大学生无奈的吐槽。</p>
+                <h3><a href="article.jsp?id=1">ChatGPT-o1来啦</a></h3>
+                <p>简要介绍及体验ChatGPT-o1。</p>
             </li>
             <li>
                 <h3><a href="article.jsp?id=4">黑神话悟空惜败</a></h3>

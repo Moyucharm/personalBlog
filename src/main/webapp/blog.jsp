@@ -8,6 +8,7 @@
     <title>博客文章 - xyz's Blog</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/blog.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 <header>
