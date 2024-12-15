@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页 -xyz's Blog</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <%
@@ -63,6 +64,33 @@
 <footer>
     <p>&copy; 2024 xyz - 个人博客</p>
 </footer>
+
+<div class="pio-container right" style="bottom: 60px">
+    <div class="pio-action"></div>
+    <canvas id="pio" width="200" height="250"></canvas>
+</div>
+<link rel="stylesheet" href="banniang/css/pio.css">
+<script src="banniang/js/pio.js"></script>
+<script src="banniang/js/l2d.js"></script>
+<script>
+    var pio = new Paul_Pio({
+        "mode": "fixed",
+        "tips": true,
+        "hidden": true,
+        "content": {
+            "welcome": ["欢迎来到阿牛的网站！", "博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],
+        },
+        "model": [
+            "banniang/live2d-widget-models/live2d-widget-model-koharu/assets/koharu.model.json",
+            "banniang/live2d-widget-models/live2d-widget-model-haru/01/assets/haru01.model.json",
+            "banniang/live2d-widget-models/live2d-widget-model-haru/02/assets/haru02.model.json",
+            "banniang/live2d-widget-models/live2d-widget-model-histoire/histoire/histoire.model.json",
+            "banniang/live2d-widget-models/live2d-widget-model-blanc_normal/blanc_normal/blanc_normal.model.json",
+
+        ]
+    });
+</script>
+
 
 <script src="js/script.js"></script>
 </body>

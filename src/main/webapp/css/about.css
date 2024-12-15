@@ -1,0 +1,44 @@
+.about-me{
+    display: flex;
+    flex-direction: row;
+}
+
+.text_intro{
+    flex:1;
+}
+
+.person_block{
+    width: 25%;
+    height: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person_block .img{
+    width: 90%;
+    height: auto;
+
+}
+
+.person_block img{
+    width: 100%;
+    height: auto;
+    border: 5px solid dodgerblue;
+    border-radius: 30%;
+}
+.tx{
+    text-align: center;
+}
+
+#dan{
+    text-decoration: none;
+    font-size: 10px;
+    color: gray;
+}

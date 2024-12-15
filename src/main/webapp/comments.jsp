@@ -25,6 +25,7 @@
 </header>
 
 <!-- 留言区内容 -->
+<br/><br/>
 <h1>留言区</h1>
 
 <c:if test="${empty username}">

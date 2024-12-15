@@ -21,14 +21,21 @@
     padding: 10px; /* 统一内边距 */
     margin: 10px 0px; /* 列表项之间的间距 */
     text-align: center; /* 确保文字居中 */
+    cursor: pointer;
 }
 
-.blog-list a{
+.blog-list li a{
     color: dodgerblue;
     font-size: 20px;
     margin: 0px 3px;
+    font-weight: bold;
     text-decoration: none;
 }
+
+.blog-list li:hover a{
+    text-decoration: underline;
+}
+
 .blog-list{
     display: flex;
     align-items: center;
@@ -40,11 +47,11 @@
 }
 
 button{
-    width: 100px; /* 按钮宽度一致 */
+    width: 100px;
     padding: 10px;
     font-size: 14px;
     color: white;
-    background-color: #3498db; /* 按钮背景色 */
+    background-color: #3498db;
     border: none;
     border-radius: 5px;
     cursor: pointer;

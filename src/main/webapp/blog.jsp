@@ -34,7 +34,7 @@
         <ul>
             <!-- 动态生成文章链接 -->
             <c:forEach var="post" items="${posts}">
-                <li>
+                <li onclick="location.href='article.jsp?id=${post.id}'">
                     <a href="article.jsp?id=${post.id}">${post.title}</a>
                 </li>
             </c:forEach>

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>关于我 -xyz's Blog</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+
 </head>
 <body>
 <header>
@@ -23,10 +25,20 @@
 
 <main>
     <section class="about-me">
+        <div class="text_intro">
         <h1>关于我</h1>
-        <p>你好，我是徐一銍，一名热爱技术的大学生，正在学习Web开发和机器学习。</p>
-        <p>目前大三，人工智能专业在读！</p>
-        <p>为了期末的大作业写的这个网站www</p>
+            <p>你好，我是徐一銍，一名热爱技术的大学生，正在学习Web开发和机器学习。</p>
+            <p>目前大三，人工智能专业在读！</p>
+            <p>为了期末的大作业写的这个网站www</p>
+        </div>
+        <div class="person_block">
+            <div class="img"><img src="img/img.png"></div>
+            <div class="tx">
+                <h2>徐一銍</h2>
+                <p>就读于温州大学</p>
+                <strong id="dan">没有好头像又不想放本人照片</strong>
+            </div>
+        </div>
     </section>
 </main>
 
