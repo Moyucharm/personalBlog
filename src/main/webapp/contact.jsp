@@ -6,6 +6,7 @@
   <title>联系我 -xyz's Blog</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <header>

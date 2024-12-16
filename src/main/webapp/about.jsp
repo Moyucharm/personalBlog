@@ -32,7 +32,7 @@
             <p>为了期末的大作业写的这个网站www</p>
         </div>
         <div class="person_block">
-            <div class="img"><img src="img/img.png"></div>
+            <div class="img"><img src="img/klee.png"></div>
             <div class="tx">
                 <h2>徐一銍</h2>
                 <p>就读于温州大学</p>

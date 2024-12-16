@@ -22,14 +22,31 @@
 
 }
 .post button{
+    width: 100px;
     padding: 10px;
-    margin-top: 20px;
-    background-color: dodgerblue;
-    border: 1px solid #ddd;
-    border-radius: 10px; /* 圆角边框 */
-
-    color:white;
+    font-size: 14px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0px;
 }
+
+.input_area{
+    width: 50%;
+}
+
+
+.input_area:focus {
+    border-color: dodgerblue;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+.post button:hover {
+    background-color: #2980b9;
+}
+
 .post button:hover{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -64,7 +81,7 @@
     border: 1px solid #ddd;
     border-radius: 10px; /* 圆角边框 */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 80%; /* 控制消息框的宽度 */
+    width: 60%; /* 控制消息框的宽度 */
 
 }
 

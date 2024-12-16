@@ -1,5 +1,5 @@
 section{
-    width: 60%;
+    width: 100%;
 }
 
 h2 {
@@ -10,7 +10,7 @@ h2 {
 
 section ul{
     list-style-type: none;
-
+    width: 100%;
 }
 section ul a{
     text-decoration: none;
@@ -21,6 +21,17 @@ section ul a:hover{
     text-decoration: underline;
 }
 
-section ul li{
-
+main{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    left: 25%;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: antiquewhite;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

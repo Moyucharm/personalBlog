@@ -25,11 +25,11 @@
 }
 
 button{
-    width: 100px; /* 按钮宽度一致 */
+    width: 100px;
     padding: 10px;
     font-size: 14px;
     color: white;
-    background-color: #3498db; /* 按钮背景色 */
+    background-color: #3498db;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -38,6 +38,6 @@ button{
 
 
 button:hover {
-    background-color: #2980b9; /* 按钮悬停效果 */
+    background-color: #2980b9;
 }
 

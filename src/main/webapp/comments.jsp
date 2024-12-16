@@ -36,7 +36,7 @@
 <div class="post">
   <c:if test="${not empty username}">
     <form action="comments" method="POST" class="leave-comment">
-      <input name="content" placeholder="写下您的留言..." required></input>
+      <input name="content" placeholder="写下您的留言..." class="input_area" required></input>
       <button type="submit">提交留言</button>
     </form>
   </c:if>
