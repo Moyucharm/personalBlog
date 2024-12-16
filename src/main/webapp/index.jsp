@@ -66,9 +66,9 @@
     <p>&copy; 2024 xyz - 个人博客</p>
 </footer>
 
-<div class="pio-container right" style="bottom: 60px">
+<div class="pio-container right" style="bottom: 30px">
     <div class="pio-action"></div>
-    <canvas id="pio" width="200" height="250"></canvas>
+    <canvas id="pio" width="300" height="450"></canvas>
 </div>
 <link rel="stylesheet" href="banniang/css/pio.css">
 <script src="banniang/js/pio.js"></script>
@@ -82,12 +82,9 @@
             "welcome": ["欢迎来到阿牛的网站！", "博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],
         },
         "model": [
-            "banniang/live2d-widget-models/live2d-widget-model-koharu/assets/koharu.model.json",
-            "banniang/live2d-widget-models/live2d-widget-model-haru/01/assets/haru01.model.json",
-            "banniang/live2d-widget-models/live2d-widget-model-haru/02/assets/haru02.model.json",
-            "banniang/live2d-widget-models/live2d-widget-model-histoire/histoire/histoire.model.json",
-            "banniang/live2d-widget-models/live2d-widget-model-blanc_normal/blanc_normal/blanc_normal.model.json",
-
+            "banniang/live2d-widget-models/bronya/model.json",
+            "banniang/live2d-widget-models/Kiana/model.json",
+            "banniang/live2d-widget-models/mie/model.json",
         ]
     });
 </script>

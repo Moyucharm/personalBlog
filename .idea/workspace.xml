@@ -9,25 +9,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab5d30f-5812-4bfd-98f1-98499f57b5e2" name="变更" comment="修改了一些页面的样式，比如主页的超链接，博客页的按钮，添加了看板娘">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/favicon.png" afterDir="false" />
+    <list default="true" id="cab5d30f-5812-4bfd-98f1-98499f57b5e2" name="变更" comment="为每个页面添加了icon，更改主页的文章">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/abeikelongbi_3.moc3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/abeikelongbi_3.model3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/abeikelongbi_3.physics3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/complete.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/home.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/idle.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/login.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/mail.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/main_1.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/main_2.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/main_3.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/mission.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/mission_complete.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/touch_body.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/touch_head.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/touch_special.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/motions/wedding.motion3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/banniang/live2d-widget-models/abeikelongbi_3/textures/texture_00.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/about.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/article.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/blog.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/comments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/comments.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/contact.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/article.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/writeArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/writeArticle.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,7 +90,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/develop/DaSanShang/web/bighomework/big/src/main/webapp/img",
+    "last_opened_file_path": "D:/develop/DaSanShang/web/bighomework/big/src/main/webapp/banniang/live2d-widget-models",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,6 +109,7 @@
       <recent name="D:\develop\DaSanShang\web\bighomework\big\src\main\webapp\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\DaSanShang\web\bighomework\big\src\main\webapp\banniang\live2d-widget-models\old" />
       <recent name="D:\develop\DaSanShang\web\bighomework\big\src\main\webapp" />
     </key>
   </component>
@@ -204,7 +218,10 @@
       <workItem from="1734186950888" duration="654000" />
       <workItem from="1734227454464" duration="249000" />
       <workItem from="1734227713722" duration="999000" />
-      <workItem from="1734228726851" duration="4756000" />
+      <workItem from="1734228726851" duration="6313000" />
+      <workItem from="1734250639469" duration="1224000" />
+      <workItem from="1734252001106" duration="7188000" />
+      <workItem from="1734336853205" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <created>1734079293179</created>
@@ -262,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734232375634</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="为每个页面添加了icon，更改主页的文章">
+      <created>1734233716289</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734233716289</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +301,7 @@
     <MESSAGE value="搞好了博客文章的东西" />
     <MESSAGE value="修改了主页的文章，关于我、联系我" />
     <MESSAGE value="修改了一些页面的样式，比如主页的超链接，博客页的按钮，添加了看板娘" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了一些页面的样式，比如主页的超链接，博客页的按钮，添加了看板娘" />
+    <MESSAGE value="为每个页面添加了icon，更改主页的文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="为每个页面添加了icon，更改主页的文章" />
   </component>
 </project>
