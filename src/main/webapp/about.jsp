@@ -27,7 +27,7 @@
     <section class="about-me">
         <div class="text_intro">
         <h1>关于我</h1>
-            <p>你好，我是徐一銍，一名热爱技术的大学生，正在学习Web开发和机器学习。</p>
+            <p>你好，我是徐可莉，一名热爱技术的大学生，正在学习Web开发和机器学习。</p>
             <p>目前大三，人工智能专业在读！</p>
             <p>为了期末的大作业写的这个网站www</p>
             <p>爱好：ACGN、听歌、编程~</p>
@@ -35,7 +35,7 @@
         <div class="person_block">
             <div class="img"><img src="img/klee.png"></div>
             <div class="tx">
-                <h2>徐一銍</h2>
+                <h2>徐可莉</h2>
                 <p>就读于温州大学</p>
                 <strong id="dan">将将~~</strong>
             </div>
