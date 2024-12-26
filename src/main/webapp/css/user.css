@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100vh; /* 视口高度，用于垂直居中 */
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+div {
+    display: block; /* 确保 div 内容正常排列 */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 320px; /* 增加宽度 */
+    max-width: 90%; /* 确保在小屏设备上自适应 */
+    text-align: left; /* 左对齐内容 */
+}
+
+ul {
+    list-style-type: none; /* 去掉列表样式 */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px; /* 增加每个表单元素之间的间距 */
+}
+
+h2 {
+    text-align: center; /* 标题居中 */
+    margin-bottom: 20px; /* 增加标题与表单的距离 */
+}
+
+label {
+    display: inline-block; /* 保证文字与输入框对齐 */
+    margin-bottom: 5px;
+    font-weight: bold; /* 加粗标签文字 */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 10px); /* 输入框宽度 */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* 确保宽度包含 padding */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: dodgerblue;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+input[type="submit"],
+input[type="button"] {
+    width: 100%; /* 按钮宽度一致 */
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #3498db; /* 按钮背景色 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #2980b9; /* 按钮悬停效果 */
+}
+
+

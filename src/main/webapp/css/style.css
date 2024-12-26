@@ -1,9 +1,10 @@
 /* 全局样式 */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    padding-top:20px;
     background-color: #f4f4f4;
+    margin: 0px;
+
 }
 
 /* 导航栏样式 */
@@ -11,7 +12,12 @@ header {
     background-color: dodgerblue;
     color: white;
     padding: 3px 0;
-    width: auto;
+    width: 40%;
+    left:30%;
+    position: fixed;
+    top: 7px;
+    z-index: 1000;
+    border-radius: 30px;
 }
 
 header nav ul {
@@ -31,14 +37,14 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
+
 }
 header nav ul li a:hover,.nowPos{
-    color:white;
-    background-color: orange;
+    color: black;
+    background-color: #f4f4f4;
     font-weight: bold;
-    text-decoration: underline;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
 /* 主页内容 */
@@ -50,10 +56,7 @@ h1, h2 {
     color: #333;
 }
 
-h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-}
+
 
 section {
     margin-bottom: 40px;
@@ -75,7 +78,7 @@ section h3 a {
 
 /* 页脚 */
 footer {
-    background-color: #333;
+    background-color: #2b2b2b;
     color: white;
     text-align: center;
     padding: 5px;

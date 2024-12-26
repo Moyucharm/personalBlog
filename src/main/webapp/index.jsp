@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人博客</title>
+    <title>首页 -xyz's Blog</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 <%
@@ -19,9 +21,9 @@
         <ul>
             <li><a href="index.jsp" class="nowPos">首页</a></li>
             <li><a href="about.jsp">关于我</a></li>
-            <li><a href="blog.jsp">博客文章</a></li>
+            <li><a href="blogs">博客文章</a></li>
             <li><a href="contact.jsp">联系我</a></li>
-            <li><a href="comments.jsp">留言板</a></li>
+            <li><a href="comments">留言板</a></li>
 
         </ul>
     </nav>
@@ -31,23 +33,23 @@
 <main>
     <section class="intro">
         <h1><%= message %></h1>
-        <p>分享我的学习和生活的点滴。希望你能从中得到一些启发。</p>
+        <p>欢迎来到我的个人博客！我在这里分享学习和生活的点滴，希望你能从中得到一些启发。</p>
     </section>
 
     <section class="blog-list">
-        <h2>最新博客文章</h2>
+        <h2>推荐文章</h2>
         <ul>
             <li>
-                <h3><a href="blog.jsp?id=1">如何高效学习编程</a></h3>
-                <p>在这篇文章中，我分享了我自己的学习编程的心得。</p>
+                <h3><a href="article.jsp?id=5">【公告】用户注册须知</a></h3>
+                <p>新人必看！</p>
             </li>
             <li>
-                <h3><a href="blog.jsp?id=2">JSP与Servlet的基础学习</a></h3>
-                <p>本篇文章讲解了JSP与Servlet的基础知识，帮助大家快速上手Web开发。</p>
+                <h3><a href="article.jsp?id=1">ChatGPT-o1来啦</a></h3>
+                <p>简要介绍及体验ChatGPT-o1。</p>
             </li>
             <li>
-                <h3><a href="blog.jsp?id=3">前端与后端的结合</a></h3>
-                <p>讨论了前后端分离以及如何高效地进行全栈开发。</p>
+                <h3><a href="article.jsp?id=4">黑神话悟空惜败</a></h3>
+                <p>少了一件“袈裟”又何妨？</p>
             </li>
         </ul>
     </section>
@@ -55,14 +57,38 @@
     <!-- 个人简介 -->
     <section class="about-me">
         <h2>关于我</h2>
-        <p>你好，我是[姓名]，一名热爱技术的开发者，正在学习Web开发和机器学习。</p>
+        <p>你好，我是徐一銍，一名热爱技术的大学生，正在学习Web开发和机器学习。</p>
     </section>
 </main>
 
 <!-- 页脚 -->
 <footer>
-    <p>&copy; 2024 [姓名] - 个人博客</p>
+    <p>&copy; 2024 xyz - 个人博客</p>
 </footer>
+
+<div class="pio-container right" style="bottom: 20px">
+    <div class="pio-action"></div>
+    <canvas id="pio" width="300" height="450"></canvas>
+</div>
+<link rel="stylesheet" href="banniang/css/pio.css">
+<script src="banniang/js/pio.js"></script>
+<script src="banniang/js/l2d.js"></script>
+<script>
+    var pio = new Paul_Pio({
+        "mode": "fixed",
+        "tips": true,
+        "hidden": true,
+        "content": {
+            "welcome": ["欢迎来到徐可莉的网站！", "博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],
+        },
+        "model": [
+            "banniang/live2d-widget-models/bronya/model.json",
+            "banniang/live2d-widget-models/Kiana/model.json",
+            "banniang/live2d-widget-models/mie/model.json",
+        ]
+    });
+</script>
+
 
 <script src="js/script.js"></script>
 </body>

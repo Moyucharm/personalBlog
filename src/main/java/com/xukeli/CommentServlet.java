@@ -14,16 +14,18 @@ public class CommentServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // 获取当前用户的登录信息
-        HttpSession session = req.getSession();
-        String username = (String) session.getAttribute("username");
-
         // 获取留言列表
         List<Comment> commentList = getComments();
 
         // 将留言数据传递到 JSP 页面
         req.setAttribute("commentList", commentList);
-        req.setAttribute("username", username);  // 用来判断是否为游客
+
+        // 如果需要判断用户是否登录
+        HttpSession session = req.getSession();
+        String username = (String) session.getAttribute("username");
+        req.setAttribute("username", username);
+
+        // 转发到 JSP 页面
         req.getRequestDispatcher("/comments.jsp").forward(req, resp);
     }
 
@@ -35,23 +37,23 @@ public class CommentServlet extends HttpServlet {
 
         // 判断用户是否已登录
         if (username == null) {
-            resp.sendRedirect("login.jsp");  // 如果没有登录，重定向到登录页面
+            resp.sendRedirect("login.jsp"); // 如果没有登录，重定向到登录页面
             return;
         }
 
         // 获取留言内容
         String content = req.getParameter("content");
 
-        // 将留言保存到数据库
+        // 保存留言到数据库
         saveComment(username, content);
 
-        // 提交完留言后，重定向到留言页面
+        // 重新加载留言并刷新页面
         resp.sendRedirect("comments");
     }
 
     private List<Comment> getComments() {
         List<Comment> commentList = new ArrayList<>();
-        String sql = "SELECT * FROM comment ORDER BY create_time DESC";  // 按时间倒序排序
+        String sql = "SELECT * FROM comment ORDER BY create_time DESC"; // 按时间倒序排列
 
         try (Connection connection = DBUtil.getConnection();
              PreparedStatement ps = connection.prepareStatement(sql);
@@ -70,7 +72,6 @@ public class CommentServlet extends HttpServlet {
         return commentList;
     }
 
-
     private void saveComment(String username, String content) {
         String sql = "INSERT INTO comment (username, content) VALUES (?, ?)";
 
@@ -86,6 +87,7 @@ public class CommentServlet extends HttpServlet {
         }
     }
 
+    // 内部类，用于表示留言
     public static class Comment {
         private String username;
         private String content;
