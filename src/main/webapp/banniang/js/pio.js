@@ -85,7 +85,7 @@ var Paul_Pio = function (prop) {
             if(document.referrer !== "" && document.referrer.indexOf(current.root) === -1){
                 var referrer = document.createElement('a');
                 referrer.href = document.referrer;
-                prop.content.referer ? modules.render(prop.content.referer.replace(/%t/, "“" + referrer.hostname + "”")) : modules.render("欢迎来自 “" + referrer.hostname + "” 的朋友！");
+                prop.content.referer ? modules.render(prop.content.referer.replace(/%t/, "“" + referrer.hostname + "”")) : modules.render("欢迎朋友来到本站！");
             }
 
             else if(prop.tips){
@@ -127,7 +127,7 @@ var Paul_Pio = function (prop) {
         // 触摸
         touch: function () {
             current.canvas.onclick = function () {
-                modules.render(prop.content.touch || ["你在干什么？","干嘛动我呀！小心我咬你！","非礼呀！救命！","再摸的话我可要报警了⌇●﹏●⌇","是···是不小心碰到了吧~~~","110 吗，这里有个变态一直在摸我(ó﹏ò)", "HENTAI!", "不可以这样欺负我啦！","萝莉控是什么呀？", "你看到我的小熊了吗？"]);
+                modules.render(prop.content.touch || ["你在干什么？","干嘛动我呀！小心我咬你！","再摸的话我可要报警了⌇●﹏●⌇","是···是不小心碰到了吧~~~","110 吗，这里有个变态一直在摸我(ó﹏ò)", "HENTAI!", "不可以这样欺负我啦！"]);
             };
         },
         // 右侧按钮
@@ -144,10 +144,10 @@ var Paul_Pio = function (prop) {
              // 更换模型
              elements.skin.onclick = function () {
                  loadlive2d("pio", prop.model[modules.idol()]);
-                 prop.content.skin && prop.content.skin[1] ? modules.render(prop.content.skin[1]) : modules.render("新衣服真漂亮~");
+                 prop.content.skin && prop.content.skin[1] ? modules.render(prop.content.skin[1]) : modules.render("我来啦~");
              };
              elements.skin.onmouseover = function () {
-                 prop.content.skin && prop.content.skin[0] ? modules.render(prop.content.skin[0]) : modules.render("想看看我的新衣服吗？");
+                 prop.content.skin && prop.content.skin[0] ? modules.render(prop.content.skin[0]) : modules.render("想要更换看板吗？");
              };
              if(prop.model.length > 1) current.menu.appendChild(elements.skin);
 
@@ -171,7 +171,7 @@ var Paul_Pio = function (prop) {
                                      .catch(console.error) )
                   };
                  elements.sentence.onmouseover = function () {
-                     modules.render("我从青蛙王子那里听到了不少人生经验。");
+                     modules.render("本功能未开发~");
                  };
                  current.menu.appendChild(elements.sentence);
 

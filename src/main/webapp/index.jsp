@@ -66,7 +66,7 @@
     <p>&copy; 2024 xyz - 个人博客</p>
 </footer>
 
-<div class="pio-container right" style="bottom: 30px">
+<div class="pio-container right" style="bottom: 20px">
     <div class="pio-action"></div>
     <canvas id="pio" width="300" height="450"></canvas>
 </div>
@@ -79,7 +79,7 @@
         "tips": true,
         "hidden": true,
         "content": {
-            "welcome": ["欢迎来到阿牛的网站！", "博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],
+            "welcome": ["欢迎来到徐可莉的网站！", "博主每天都有些折腾记录，欢迎前往他的小窝阅读~"],
         },
         "model": [
             "banniang/live2d-widget-models/bronya/model.json",

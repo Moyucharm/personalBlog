@@ -63,9 +63,20 @@
             }
         %>
         <button onclick="location.href='blogs'">返回</button>
+        <%
+            // 判断用户是否为管理员
+            String username = (String) session.getAttribute("username");
+            if ("admin".equals(username)) {
+        %>
+        <!-- 显示删除按钮 -->
+        <button onclick="confirmDelete('<%= id %>')">删除</button>
+        <%
+            }
+        %>
     </div>
 </main>
 
+<script rel="script" src="js/delArticle.js"></script>
 <footer>
     <p>&copy; 2024 xyz - 个人博客</p>
 </footer>
